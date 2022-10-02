@@ -45,7 +45,7 @@ jobs:
         with:
           push: true
           tags: |
-            t4skforce/syncthing-relay:latest
-            t4skforce/syncthing-relay:${{ env.RELEASE_VERSION }}
-            ghcr.io/t4skforce/syncthing-relay:latest
-            ghcr.io/t4skforce/syncthing-relay:${{ env.RELEASE_VERSION }}
+            popcorn9499/syncthing-relay:latest
+            popcorn9499/syncthing-relay:${{ env.RELEASE_VERSION }}
+            ghcr.io/popcorn9499/syncthing-relay:latest
+            ghcr.io/popcorn9499/syncthing-relay:${{ env.RELEASE_VERSION }}
